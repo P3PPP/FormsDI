@@ -1,0 +1,7 @@
+# Created by http://www.gitignore.io
+
+### XamarinStudio ###
+bin/
+obj/
+*.userprefs
+packages/
