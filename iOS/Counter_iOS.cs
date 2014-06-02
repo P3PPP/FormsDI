@@ -1,16 +1,16 @@
 ﻿using Xamarin.Forms;
 using FormsDI;
-using FormsDI.Android;
+using FormsDI.iOS;
 
-[assembly : Dependency(typeof(Counter))]
+[assembly : Dependency(typeof(Counter_iOS))]
 
-namespace FormsDI.Android
+namespace FormsDI.iOS
 {
-	public class Counter : ICounter
+	public class Counter_iOS : ICounter
 	{
 		private int count = 0;
 
-		public Counter ()
+		public Counter_iOS ()
 		{
 		}
 
